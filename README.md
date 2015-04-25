@@ -10,4 +10,12 @@ SSH attempts with the following behaviors are considered malicious:
 - Consistent connection interval patterns
 - TOR network addresses
 - Unexpected IP address geolocation
-- IP addresses or subnets outside of whitelist
+- IP addresses or CIDR outside of whitelist
+
+# Security Interval
+
+Determine a default security interval, also have an option to set the security interval, and check on real-time options.
+
+# Reporting
+
+Report hack attempts
